@@ -1,3 +1,4 @@
+// Modal Popup Script falando sobre meu trabalho 
 window.addEventListener('load', () => {
     setTimeout(() => {
       document.getElementById('popup').classList.remove('hidden');
