@@ -93,34 +93,35 @@
 <body class="bg-gray-50">
 
     <!-- Popup Modal -->
-    <div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-50 hidden"">
-        <!-- Botão Fechar -->
-        <button onclick="closePopup()"
-            class="absolute top-2 right-2 text-gray-500 hover:text-red-500 text-xl font-bold">&times;</button>
+    <!-- POPUP -->
+<div id="popup" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-50 hidden">
+  <!-- Caixa interna do popup -->
+  <div class="bg-white rounded-2xl shadow-xl max-w-md w-full p-6 relative animate-fadeIn">
+    <!-- Botão fechar -->
+    <button onclick="closePopup()" class="absolute top-2 right-2 text-gray-500 hover:text-red-500 text-xl font-bold">&times;</button>
 
-        <h2 class="text-2xl font-semibold text-red-600 mb-2">Transforme sua presença online</h2>
-        <p class="text-gray-700 text-base leading-relaxed">
-            Olá! Eu sou desenvolvedor especializado em <strong>Landing Pages</strong> profissionais que ajudam pequenos
-            negócios a ganharem mais visibilidade e venderem mais online.
-        </p>
-        <p class="text-gray-700 text-base mt-3">
-            Uma boa landing page atrai, convence e converte visitantes em clientes — tudo isso com um design focado em
-            performance, SEO e experiência do usuário.
-        </p>
-        <p class="text-gray-700 text-base mt-3 mb-5">
-            Se você ainda não tem uma página de vendas, está perdendo oportunidades valiosas todos os dias!
-        </p>
+    <h2 class="text-2xl font-semibold text-red-600 mb-2">Transforme sua presença online</h2>
+    <p class="text-gray-700 text-base leading-relaxed">
+      Olá! Eu sou desenvolvedor especializado em <strong>Landing Pages</strong> profissionais que ajudam pequenos negócios a ganharem mais visibilidade e venderem mais online.
+    </p>
+    <p class="text-gray-700 text-base mt-3">
+      Uma boa landing page atrai, convence e converte visitantes em clientes — tudo isso com um design focado em performance, SEO e experiência do usuário.
+    </p>
+    <p class="text-gray-700 text-base mt-3 mb-5">
+      Se você ainda não tem uma página de vendas, está perdendo oportunidades valiosas todos os dias!
+    </p>
 
-        <!-- Botão WhatsApp -->
-        <a href="https://wa.me/5511976347201" target="_blank"
-            class="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-4 py-2 rounded-full transition duration-300">
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path
-                    d="M12.04 2.003a10.004 10.004 0 00-8.812 14.843L2 22l5.271-1.385A10.003 10.003 0 1012.04 2.003zm5.659 13.645c-.237.663-1.383 1.304-1.9 1.387-.485.077-1.098.11-1.766-.109-.407-.13-.928-.3-1.597-.59a11.32 11.32 0 01-1.982-1.204 8.06 8.06 0 01-1.446-1.654 5.67 5.67 0 01-1.004-2.21c-.01-.52.134-1.024.438-1.43.134-.177.298-.27.495-.27.13 0 .255.01.368.021.12.012.258.018.397.3.151.295.513 1.022.558 1.095.043.072.072.154.016.252-.094.164-.195.273-.296.377-.074.08-.157.168-.227.27-.076.11-.162.23-.072.408.093.186.413.684.888 1.112a7.59 7.59 0 002.318 1.319c.299.108.533.172.735.221.308.076.59.065.81.04.247-.029.762-.31.871-.61.108-.297.108-.551.076-.61-.032-.06-.12-.093-.255-.163z" />
-            </svg>
-            Fale comigo no WhatsApp
-        </a>
-    </div>
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/55976347201" target="_blank"
+       class="flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold px-4 py-2 rounded-full transition duration-300">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M12.04 2.003a10.004 10.004 0 00-8.812 14.843L2 22l5.271-1.385A10.003 10.003 0 1012.04 2.003zm5.659 13.645c-.237.663-1.383 1.304-1.9 1.387-.485.077-1.098.11-1.766-.109-.407-.13-.928-.3-1.597-.59a11.32 11.32 0 01-1.982-1.204 8.06 8.06 0 01-1.446-1.654 5.67 5.67 0 01-1.004-2.21c-.01-.52.134-1.024.438-1.43.134-.177.298-.27.495-.27.13 0 .255.01.368.021.12.012.258.018.397.3.151.295.513 1.022.558 1.095.043.072.072.154.016.252-.094.164-.195.273-.296.377-.074.08-.157.168-.227.27-.076.11-.162.23-.072.408.093.186.413.684.888 1.112a7.59 7.59 0 002.318 1.319c.299.108.533.172.735.221.308.076.59.065.81.04.247-.029.762-.31.871-.61.108-.297.108-.551.076-.61-.032-.06-.12-.093-.255-.163z"/>
+      </svg>
+      Fale comigo no WhatsApp
+    </a>
+  </div>
+</div>
+
 
 
     <!-- Barra de Navegação -->
